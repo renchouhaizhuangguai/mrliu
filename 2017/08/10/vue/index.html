@@ -94,16 +94,16 @@
 
 
 
-<meta name="description" content="成为一名优秀的web前端工程师，需要具备如下四点专业技能第一、必须熟练掌握基本的WEB前端技术，比如：DIV+CSS、JavaScript、HTML、jQuery，AJAX ，JSON，      XML，基于jQuery之上的JS FrameWork也应该会上几种等等。第二、必须掌握网站的性能优化、SEO、UE、服务器端、兼容性等。第三、学会用工具辅助开发，正所谓，工欲善其事，必先利其器。第四、">
+<meta name="description" content="1.安装node.js(http://www.runoob.com/nodejs/nodejs-install-setup.html) 2.基于node.js,利用淘宝npm镜像安装相关依赖  在cmd里直接输入：npm install -g cnpm –-registry=https://registry.npm.taobao.org，回车，等待安装… 3.安装全局vue-cli脚手架,用于帮助">
 <meta property="og:type" content="article">
-<meta property="og:title" content="前端的那些事">
-<meta property="og:url" content="https://renchouhaizhuangguai.github.io/mrliu/2017/08/09/news/index.html">
+<meta property="og:title" content="VUE环境搭建">
+<meta property="og:url" content="https://renchouhaizhuangguai.github.io/mrliu/2017/08/10/vue/index.html">
 <meta property="og:site_name" content="刘保胜">
-<meta property="og:description" content="成为一名优秀的web前端工程师，需要具备如下四点专业技能第一、必须熟练掌握基本的WEB前端技术，比如：DIV+CSS、JavaScript、HTML、jQuery，AJAX ，JSON，      XML，基于jQuery之上的JS FrameWork也应该会上几种等等。第二、必须掌握网站的性能优化、SEO、UE、服务器端、兼容性等。第三、学会用工具辅助开发，正所谓，工欲善其事，必先利其器。第四、">
-<meta property="og:updated_time" content="2017-08-09T08:02:11.563Z">
+<meta property="og:description" content="1.安装node.js(http://www.runoob.com/nodejs/nodejs-install-setup.html) 2.基于node.js,利用淘宝npm镜像安装相关依赖  在cmd里直接输入：npm install -g cnpm –-registry=https://registry.npm.taobao.org，回车，等待安装… 3.安装全局vue-cli脚手架,用于帮助">
+<meta property="og:updated_time" content="2017-08-09T10:55:33.437Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="前端的那些事">
-<meta name="twitter:description" content="成为一名优秀的web前端工程师，需要具备如下四点专业技能第一、必须熟练掌握基本的WEB前端技术，比如：DIV+CSS、JavaScript、HTML、jQuery，AJAX ，JSON，      XML，基于jQuery之上的JS FrameWork也应该会上几种等等。第二、必须掌握网站的性能优化、SEO、UE、服务器端、兼容性等。第三、学会用工具辅助开发，正所谓，工欲善其事，必先利其器。第四、">
+<meta name="twitter:title" content="VUE环境搭建">
+<meta name="twitter:description" content="1.安装node.js(http://www.runoob.com/nodejs/nodejs-install-setup.html) 2.基于node.js,利用淘宝npm镜像安装相关依赖  在cmd里直接输入：npm install -g cnpm –-registry=https://registry.npm.taobao.org，回车，等待安装… 3.安装全局vue-cli脚手架,用于帮助">
 
 
 
@@ -132,13 +132,13 @@
 
 
 
-  <link rel="canonical" href="https://renchouhaizhuangguai.github.io/mrliu/2017/08/09/news/"/>
+  <link rel="canonical" href="https://renchouhaizhuangguai.github.io/mrliu/2017/08/10/vue/"/>
 
 
 
 
 
-  <title>前端的那些事 | 刘保胜</title>
+  <title>VUE环境搭建 | 刘保胜</title>
   
 
 
@@ -255,7 +255,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://renchouhaizhuangguai.github.io/mrliu/mrliu/2017/08/09/news/">
+    <link itemprop="mainEntityOfPage" href="https://renchouhaizhuangguai.github.io/mrliu/mrliu/2017/08/10/vue/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr liu">
@@ -272,7 +272,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">前端的那些事</h1>
+          <h1 class="post-title" itemprop="name headline">VUE环境搭建</h1>
         
 
         <div class="post-meta">
@@ -284,8 +284,8 @@
               
                 <span class="post-meta-item-text">Veröffentlicht am</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-08-09T15:55:03+08:00">
-                2017-08-09
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-08-10T11:16:14+08:00">
+                2017-08-10
               </time>
             
 
@@ -322,7 +322,19 @@
       
 
       
-        <h3 id="成为一名优秀的web前端工程师，需要具备如下四点专业技能"><a href="#成为一名优秀的web前端工程师，需要具备如下四点专业技能" class="headerlink" title="成为一名优秀的web前端工程师，需要具备如下四点专业技能"></a>成为一名优秀的web前端工程师，需要具备如下四点专业技能</h3><p>第一、必须熟练掌握基本的WEB前端技术，比如：DIV+CSS、JavaScript、HTML、jQuery，AJAX ，JSON，<br>      XML，基于jQuery之上的JS FrameWork也应该会上几种等等。<br>第二、必须掌握网站的性能优化、SEO、UE、服务器端、兼容性等。<br>第三、学会用工具辅助开发，正所谓，工欲善其事，必先利其器。<br>第四、各种工作的好习惯，好习惯，好习惯。</p>
+        <p>1.安装node.js(<a href="http://www.runoob.com/nodejs/nodejs-install-setup.html" target="_blank" rel="external">http://www.runoob.com/nodejs/nodejs-install-setup.html</a>)</p>
+<p>2.基于node.js,利用淘宝npm镜像安装相关依赖</p>
+<p> 在cmd里直接输入：npm install -g cnpm –-registry=<a href="https://registry.npm.taobao.org，回车，等待安装" target="_blank" rel="external">https://registry.npm.taobao.org，回车，等待安装</a>…</p>
+<p>3.安装全局vue-cli脚手架,用于帮助搭建所需的模板框架</p>
+<p>在cmd里 1)输入：cnpm install -g vue-cli，回车，等待安装…</p>
+<pre><code>2).输入：vue，回车，若出现vue信息说明表示成功
+</code></pre><p>4.创建项目</p>
+<p>在cmd里输入：vue init webpack vue_test(项目文件夹名)，回车，等待一小会儿，依次出现‘git’下的项<br>5.安装依赖</p>
+<p>在cmd里  1).输入：cd vue_test（项目名），回车，进入到具体项目文件夹</p>
+<pre><code>2).输入：cnpm install，回车，等待一小会儿
+</code></pre><p>回到项目文件夹，会发现项目结构里，多了一个node_modules文件夹（该文件里的内容就是之前安装的依赖）<br>6.测试环境是否搭建成功</p>
+<p>方法1：在cmd里输入：cnpm run dev</p>
+<p>方法2：在浏览里输入：localhost:8080(默认端口为8080)</p>
 
       
     </div>
@@ -347,8 +359,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/mrliu/2017/08/06/hello-world/" rel="next" title="hello 建站第一天">
-                <i class="fa fa-chevron-left"></i> hello 建站第一天
+              <a href="/mrliu/2017/08/10/react/" rel="next" title="React开发环境搭建教程">
+                <i class="fa fa-chevron-left"></i> React开发环境搭建教程
               </a>
             
           </div>
@@ -356,10 +368,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/mrliu/2017/08/09/react/" rel="prev" title="React开发环境搭建教程">
-                React开发环境搭建教程 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -411,24 +419,15 @@
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
-            Inhaltsverzeichnis
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview">
-            Übersicht
-          </li>
-        </ul>
-      
 
-      <section class="site-overview sidebar-panel">
+      <section class="site-overview sidebar-panel sidebar-panel-active">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/mrliu/images/avatar.gif"
                alt="Mr liu" />
           <p class="site-author-name" itemprop="name">Mr liu</p>
            
-              <p class="site-description motion-element" itemprop="description">一入编程深似海，从此妹子是路人</p>
+              <p class="site-description motion-element" itemprop="description">如果你想知道自己将来的年收入如何。找你最经常来往的六个朋友，把他们的年收入加起来，除以六，就差不多是你的了。真理:"环境改变人"</p>
           
         </div>
         <nav class="site-state motion-element">
@@ -465,22 +464,6 @@
 
       </section>
 
-      
-      <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-              
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#成为一名优秀的web前端工程师，需要具备如下四点专业技能"><span class="nav-number">1.</span> <span class="nav-text">成为一名优秀的web前端工程师，需要具备如下四点专业技能</span></a></li></ol></div>
-            
-
-          </div>
-        </section>
-      <!--/noindex-->
       
 
       
